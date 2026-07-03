@@ -217,9 +217,8 @@ button {
     color: var(--accent-color);
 }
 
+
 .nav__logo-img {
-    margin: -390%;
-    margin-top: -360%;
     
     height: 90px;
     width: 90px;
@@ -432,7 +431,7 @@ button {
 
 /* ==================== GALLERY ==================== */
 .galeria {
-    background: var(--bg-light);
+   background: #cdd1d8;
 }
 
 .galeria__container {
@@ -465,7 +464,7 @@ button {
 .galeria__overlay {
     position: absolute;
     inset: 0;
-    background: rgba(222, 83, 159, 0.8);
+    background: rgba(156, 30, 102, 0.8);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -554,7 +553,7 @@ button {
 
 /* ==================== DIFFERENTIALS ==================== */
 .diferenciais {
-    background: var(--bg-light);
+    background: #cdd1d8;
 }
 
 .diferenciais__container {
@@ -620,20 +619,20 @@ button {
     align-items: center;
     gap: var(--spacing-md);
     padding: var(--spacing-md);
-    background: var(--bg-light);
+    background: var(--white);
     border-radius: var(--radius-md);
     transition: var(--transition);
 }
 
 .beneficio__item:hover {
-    background: var(--bg-lighter);
+    background:#cbced3;
     transform: translateX(5px);
 }
 
 .beneficio__icon {
     width: 50px;
     height: 50px;
-    background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+    background: linear-gradient(135deg, #9ca3af, var(--primary-light));
     border-radius: var(--radius-sm);
     display: flex;
     align-items: center;
@@ -660,7 +659,7 @@ button {
 
 /* ==================== TESTIMONIALS ==================== */
 .depoimentos {
-    background: var(--bg-light);
+   background: #cdd1d8;
 }
 
 .depoimentos__container {
@@ -751,7 +750,7 @@ button {
 }
 
 .faq__question:hover {
-    background: var(--bg-light);
+   background: #cdd1d8;
 }
 
 .faq__title {
@@ -764,7 +763,7 @@ button {
 .faq__toggle {
     width: 32px;
     height: 32px;
-    background: var(--bg-light);
+    background: #cdd1d8;;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -805,7 +804,7 @@ button {
 
 /* ==================== CONTACT ==================== */
 .contato {
-    background: var(--bg-light);
+    background: #cdd1d8;;
 }
 
 .contato__info-center {
@@ -1140,6 +1139,9 @@ button {
         --h1-size: 2rem;
         --h2-size: 1.75rem;
         --h3-size: 1.25rem;
+    }
+    .nav__logo-img {
+        display: none;
     }
 
     .nav__menu {
