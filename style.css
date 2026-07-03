@@ -1116,6 +1116,11 @@ button {
         gap: var(--spacing-lg);
     }
 
+      .nav__logo-img {
+        display: none;    
+        
+    }
+
     .hero__image,
     .sobre__image {
         order: -1;
@@ -1136,15 +1141,15 @@ button {
 
 @media screen and (max-width: 768px) {
     :root {
+        
         --h1-size: 2rem;
         --h2-size: 1.75rem;
         --h3-size: 1.25rem;
     }
-    .nav__logo-img {
-        display: none;
-    }
+  
 
     .nav__menu {
+        
         position: fixed;
         top: 0;
         right: -100%;
@@ -1159,36 +1164,43 @@ button {
 
     .nav__menu.show-menu {
         right: 0;
+        
     }
 
     .nav__list {
         flex-direction: column;
         align-items: flex-start;
         gap: var(--spacing-md);
+         
     }
 
     .nav__toggle,
     .nav__close {
         display: block;
+         
     }
 
     .nav__close {
         position: absolute;
         top: var(--spacing-md);
         right: var(--spacing-md);
+        
     }
 
     .hero__stats {
         grid-template-columns: 1fr;
+         
     }
 
     .galeria__container {
         grid-template-columns: repeat(2, 1fr);
+         
     }
 
     .galeria__item--large {
         grid-column: span 2;
         grid-row: span 1;
+         
     }
 
     .categorias__container,
