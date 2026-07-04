@@ -492,6 +492,8 @@ button {
     gap: var(--spacing-lg);
 }
 
+
+
 .categoria__card {
     display: block;
     background: var(--white);
